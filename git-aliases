@@ -1,0 +1,13 @@
+1. git config (--list -> Show all configs)
+  --local (local project)
+  --global (user config)
+  --system (all users)
+
+2. git config --global --edit (VI editor)
+  to change to your editor => git config --global core.editor editorname ex: code
+  next time git config --global --edit will open with your editor  
+
+3. Put --wait flag on editor setting
+   editor = code --wait  
+
+4. Create alias   
