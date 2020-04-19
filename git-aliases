@@ -10,4 +10,9 @@
 3. Put --wait flag on editor setting
    editor = code --wait  
 
-4. Create alias   
+4. Create alias block and put this
+  [alias]
+	s= !git status -s
+	c= !git add --all && git commit -m
+	l= !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+   
